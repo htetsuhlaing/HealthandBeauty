@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_shadow"
+        android:orientation="horizontal"
+        android:padding="15dp">
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/fback"
+            android:background="@drawable/back"
+            android:backgroundTint="#fff"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="2dp"-->
+            <!--android:textSize="15sp"-->
+            <!--android:textColor="#fff"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_toRightOf="@+id/fback"-->
+            <!--android:layout_toEndOf="@+id/fback"-->
+            <!--android:text="@string/goodhair"/>-->
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:id="@+id/love"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/heartoutline"/>
+    </RelativeLayout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txttitle"
+                    android:text="gekjlerijugd"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="190dp"
+                android:id="@+id/linearLayout2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:id="@+id/txtdes"
+                    android:text="yuiopkj.kg;lsdfkg"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:id="@+id/img"
+                android:background="@drawable/run"
+                android:layout_gravity="center_vertical"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

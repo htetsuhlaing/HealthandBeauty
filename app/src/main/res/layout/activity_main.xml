@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bla"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto">
+
+    <info.hoang8f.widget.FButton
+        fbutton:buttonColor="@color/color_concrete"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:id="@+id/face"
+        android:text="face"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        fbutton:shadowColor="@color/color_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:cornerRadius="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        fbutton:buttonColor="@color/color_concrete"
+        android:id="@+id/skin"
+        android:text="Skin"
+        android:textColor="#fff"
+        fbutton:shadowColor="@color/color_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:cornerRadius="5dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignTop="@+id/face"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <info.hoang8f.widget.FButton
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        fbutton:buttonColor="@color/color_concrete"
+        fbutton:shadowColor="@color/color_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:cornerRadius="5dp"
+        android:text="Hair"
+        android:textColor="#fff"
+        android:id="@+id/hair"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/face"
+        android:layout_alignStart="@+id/face" />
+    <info.hoang8f.widget.FButton
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        fbutton:buttonColor="@color/color_concrete"
+        fbutton:shadowColor="@color/color_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:cornerRadius="5dp"
+        android:text="Yoga"
+        android:textColor="#fff"
+        android:id="@+id/yoga"
+        android:layout_alignTop="@+id/hair"
+        android:layout_alignLeft="@+id/fav"
+        android:layout_alignStart="@+id/fav" />
+    <info.hoang8f.widget.FButton
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        fbutton:buttonColor="@color/color_concrete"
+        fbutton:shadowColor="@color/color_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:cornerRadius="5dp"
+        android:text="Health Tips"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/face"
+        android:layout_alignStart="@+id/face"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="0dp"
+        android:id="@+id/health" />
+    <info.hoang8f.widget.FButton
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        fbutton:buttonColor="@color/color_concrete"
+        fbutton:shadowColor="@color/color_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:cornerRadius="5dp"
+        android:text="favourite"
+        android:textColor="#fff"
+        android:id="@+id/fav"
+        android:layout_alignTop="@+id/health"
+        android:layout_alignLeft="@+id/skin"
+        android:layout_alignStart="@+id/skin" />
+
+</RelativeLayout>
+

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Beauty Box</string>
+    <string name="face">မ်က္နွာ</string>
+    <string name="ace">၀က္ျခံေပ်ာက္ကင္းေစရန္နည္းလမ္းေကာင္းမ်ား</string>
+    <string name="white">မ်က္နွာျဖဴ၀င္းလွပေစရန္</string>
+    <string name="milasama">တင္းတိတ္နွင့္မွဲ ့ေျခာက္ေပ်ာက္ကင္းေစရန္</string>
+    <string name="scar">အမာရြတ္နွင့္အမဲစက္ေပ်ာက္ကင္းေစရန္</string>
+    <string name="skin">အသားအေရ</string>
+    <string name="hair">ဆံေကသာ</string>
+    <string name="soft">ဆံသားနူးည့ံေပ်ာ့ေပ်ာင္းေစရန္</string>
+    <string name="dry">ေျခာက္ေသြ ့ၾကမ္းတမ္းေသာဆံသား</string>
+    <string name="dandruff">ေဗာက္ေပ်ာက္ကင္းေစရန္</string>
+    <string name="goodskin">က်န္းမာလွပေသာအသားေရရရွိေစရန္</string>
+    <string name="goodhair">ဆံေကသာက်န္းမာသန္စြမ္းေစရန္</string>
+    <string name="dryskin">ေျခာက္ေသြ ့ၾကမ္းတမ္းေသာအသားအေရ</string>
+    <string name="oilyskin">အဆီျပန္ေသာအသားအေရ</string>
+    <string name="demageskin">ပ်က္စီးေနေသာအသားအေရ</string>
+    <string name="yoga">ေယာဂေလ့က်င့္ခန္း</string>
+
+</resources>

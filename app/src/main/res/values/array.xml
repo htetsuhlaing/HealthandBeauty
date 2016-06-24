@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="word">
+        <item>ေရမ်ားမ်ားေသာက္ပါက်န္းမာပါဧ။္္</item>
+        <item>ေကာင္းမြန္စြာအိပ္စက္ပါ</item>
+        <item>အာဟာရမွ်တေအာင္စားေသာက္ပါ</item>
+        <item>ေလ့က်င့္ခန္းပံုမွန္ျပဳလုပ္ပါ</item>
+        <item>မျကာခဏခရီးထြက္ပါ္</item>
+        <item>စိတ္ေပ်ာ္ရြွင္မွဳရွိပါေစ</item>
+        <item>အဆီေလွ်ာ့စားပါ္</item>
+        <item>မိမိကိုယ္ကိုခ်စ္ခင္တတ္ပါေစ</item>
+    </string-array>
+</resources>
